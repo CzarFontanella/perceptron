@@ -1,18 +1,20 @@
-O projeto apresentado implementa um Perceptron Simples, que é um modelo de rede neural artificial muito utilizado para a classificação binária de dados lineares.
+O projeto apresentado implementa um Perceptron Simples, que é um modelo de rede neural artificial amplamente utilizado para a classificação binária de dados linearmente separáveis.
 
-Desenvolvido por Frank Rosenblatt em 1958, o Perceptron é uma unidade inspirada no neurônio biológico, que aprende a classificar dados. 
-Ele recebe inputs, aplica pesos e um bias, e então usa uma função de ativação para produzir uma saída binária (0 ou 1). 
-É um modelo de aprendizado supervisionado que, através de treinamento, aprende a separar dados linearmente. 
+A página pode ser visualizada em: https://CzarFontanella.github.io/perceptron
+
+Desenvolvido por Frank Rosenblatt em 1958, o Perceptron é uma unidade inspirada no neurônio biológico, que aprende a classificar dados.
+Ele recebe entradas, aplica pesos e um viés (bias), e então utiliza uma função de ativação para produzir uma saída binária (0 ou 1).
+É um modelo de aprendizado supervisionado que, através do treinamento, aprende a separar dados linearmente.
 O Perceptron é considerado um dos algoritmos mais básicos e importantes na história da Inteligência Artificial e do Aprendizado de Máquina (Machine Learning).
 
 Como este Perceptron Funciona?
   O objetivo deste Perceptron é aprender a separar dois grupos de pontos (classes) em um plano 2D, baseando-se em exemplos (dados rotulados como "classe 1" ou "classe -1").
 
   Ele faz isso por meio de:
-    -> Receber entradas (coordenadas dos pontos x e y + um viés bias).
+    -> Receber entradas (coordenadas dos pontos x e y, mais um viés).
     -> Multiplicar as entradas pelos pesos (parâmetros que o modelo ajusta durante o treinamento).
     -> Somar todos os valores multiplicados.
-    -> Aplicar uma função de ativação (sign) que define a qual classe o ponto pertence:
+    -> Aplicar uma função de ativação (sign), que define a qual classe o ponto pertence:
     -> Se o resultado for positivo, a saída é +1.
     -> Se for negativo, a saída é -1.
     -> Comparar a saída com o valor esperado (rótulo verdadeiro do ponto) e ajustar os pesos se o modelo errou.
@@ -23,7 +25,7 @@ Estrutura do Projeto
 
   * Classe Point: Representa um ponto no espaço 2D, com coordenadas x e y, e seu respectivo rótulo de classe (1 ou -1).
 
-  * Classe Sketch: Aplica o modelo à interface grafica, através da atribuição de valores como número de pontos, tamanho do canvas, executar chamadas do perceptron, etc.
+  * Classe Sketch: Controla a aplicação do modelo na interface gráfica, atribuindo valores como número de pontos, tamanho do canvas, execução de chamadas do perceptron, entre outros.
 
   * Interface Gráfica:
     -> Os pontos são desenhados em um canvas.
