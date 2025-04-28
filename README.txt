@@ -1,6 +1,9 @@
 O projeto apresentado implementa um Perceptron Simples, que é um modelo de rede neural artificial muito utilizado para a classificação binária de dados lineares.
 
-Desenvolvido por Frank Rosenblatt em 1958, o Perceptron é uma unidade inspirada no neurônio biológico, que aprende a classificar dados. Ele recebe inputs, aplica pesos e um bias, e então usa uma função de ativação para produzir uma saída binária (0 ou 1). É um modelo de aprendizado supervisionado que, através de treinamento, aprende a separar dados linearmente. O Perceptron é considerado um dos algoritmos mais básicos e importantes na história da Inteligência Artificial e do Aprendizado de Máquina (Machine Learning).
+Desenvolvido por Frank Rosenblatt em 1958, o Perceptron é uma unidade inspirada no neurônio biológico, que aprende a classificar dados. 
+Ele recebe inputs, aplica pesos e um bias, e então usa uma função de ativação para produzir uma saída binária (0 ou 1). 
+É um modelo de aprendizado supervisionado que, através de treinamento, aprende a separar dados linearmente. 
+O Perceptron é considerado um dos algoritmos mais básicos e importantes na história da Inteligência Artificial e do Aprendizado de Máquina (Machine Learning).
 
 Como este Perceptron Funciona?
   O objetivo deste Perceptron é aprender a separar dois grupos de pontos (classes) em um plano 2D, baseando-se em exemplos (dados rotulados como "classe 1" ou "classe -1").
